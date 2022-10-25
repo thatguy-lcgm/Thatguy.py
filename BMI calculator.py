@@ -9,7 +9,7 @@ elif ca < 24.9:
 elif ca < 29.9:
     print('\033[31mOverweight\033[m')
 elif ca < 34.9:
-    print('\033[31mObesity (Class I)')
+    print('\033[31mObesity (Class I)\033[m')
 elif ca < 39:
     print('\033[31mObesity (Class II)\033[m')
 else:
