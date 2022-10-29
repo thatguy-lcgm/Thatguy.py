@@ -1,5 +1,5 @@
 #Using while to calculate the factorial:
-n = int(input('Digit a value: '))
+n = int(input('Digit a number: '))
 cont = n
 factorial = 1
 while cont > 0:
@@ -9,7 +9,7 @@ while cont > 0:
     cont -= 1
 print(factorial)
 #Using range to calculate the factorial:
-n = int(input('Digit a value: '))
+n = int(input('Digit a number: '))
 factorial = 1
 for c in range(n, 0, -1):
     print('{}'.format(c), end='')
