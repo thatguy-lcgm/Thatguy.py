@@ -21,4 +21,4 @@ print(f'\nThe highest value was {highest}, located in position: ')
 for position, c in enumerate(lis):
     if c == highest:
         print(position, end=' ')
-print('\033[31mEND.\033[m')
+print('\n\033[31mEND.\033[m')
