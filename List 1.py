@@ -13,11 +13,11 @@ for c in lis:
         lowest = c
     if c > highest:
         highest = c
-print(f'The lowest value is: {lowest}, located in the Position: ')
+print(f'The lowest value is: {lowest}, located in the Position: ', end='')
 for position, c in enumerate(lis):
     if c == lowest:
         print(position, end=' ')
-print(f'\nThe highest value was {highest}, located in position: ')
+print(f'\nThe highest value was {highest}, located in position: ', end='')
 for position, c in enumerate(lis):
     if c == highest:
         print(position, end=' ')
