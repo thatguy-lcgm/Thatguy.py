@@ -17,6 +17,8 @@ def count(start1, end1, jump1):
             start1 -= jump1
         if start1 != end1:
             print(end1)
+    if jump1 == 0:
+        jump1 = 1
 
 
 print('-=' * 20)
