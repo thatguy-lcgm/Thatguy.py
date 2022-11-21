@@ -2,23 +2,19 @@ from time import sleep
 
 
 def count(start1, end1, jump1):
+    if jump1 == 0:
+        jump1 = 1
     if start1 < end1:
         while start1 <= end1:
             print(start1, end=' ')
             sleep(0.4)
             start1 += jump1
-        if start1 != end1:
-            print(end1)
         print()
     elif start1 > end1:
         while start1 >= end1:
             print(start1, end=' ')
             sleep(0.4)
             start1 -= jump1
-        if start1 != end1:
-            print(end1)
-    if jump1 == 0:
-        jump1 = 1
 
 
 print('-=' * 20)
