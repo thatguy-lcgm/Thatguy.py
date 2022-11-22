@@ -1,7 +1,5 @@
-from time import sleep
-
-
 def higher():
+    from time import sleep
     numbers = list()
     while True:
         while True:
